@@ -1,0 +1,24 @@
+{
+  "name": "atv-bd3-rede-social",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rede social simples com Express, Socket.IO e Firestore",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "firebase-admin": "^14.5.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
